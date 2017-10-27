@@ -24,21 +24,46 @@ footer{
 	margin:0;
 	background: rgba(128,140,179,1);
 	overflow:hidden;
+	z-index:-1;
 }
 .logo{
 	position:absolute;
-	left:55%;
+	left:45%;
+	top:45%;
+}
+.login{
+	position:absolute;
+	border:1px solid blue;
+	border-radius:10px;
+	padding:1em;
+	left:80%;
 	top:45%;
 }
 .info{
-	background-color:white;
+	background:url("../images/frame.png") no-repeat;
 	position:absolute;
-	border:1px solid black;
-	padding:1em;
-	width:35%;
+	padding:1em 2em 0 2em;
+	width:46%;
 	top:30%;
 	right:10%;
 }
 .info img{
-	margin:1em;
+	margin-right:0.5em;
+}
+a{
+	text-decoration:none;
+
+}
+ul{
+	list-style:none;
+}
+li{
+	display:inline;
+	padding:0 0 0 1em;
+
+}
+.phones{
+	position:absolute;
+	left:10%;
+	top:15%;
 }
